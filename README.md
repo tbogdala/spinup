@@ -4,6 +4,13 @@ A utility program to quickly audition (play) audio files with a terminal user in
 
 ![Screenshot of spinup in MacOS](assets/screenshot_macos_0.1.0.png?raw=true "MacOS Screenshot")
 
+# Supported File Types
+
+* .wav
+* .ogg
+* .mp3
+* .flac
+
 ## Usage
 
 * 'j' -- moves down in the list
