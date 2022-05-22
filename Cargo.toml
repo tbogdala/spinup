@@ -1,0 +1,20 @@
+[package]
+name = "spinup"
+description = "A quick audio file auditioner with a terminal interface"
+authors = ["Timothy Bogdala <tdb@animal-machine.com>"]
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+homepage = "https://github.com/tbogdala/spinup"
+repository = "https://github.com/tbogdala/spinup"
+license = "GPL-3.0-or-later"
+keywords = ["audition", "audio", "cli", "terminal"]
+categories = ["command-line-utilities"]
+
+
+[dependencies]
+tui = "0.18"
+crossterm = "0.23"
+kira = "0.6"
+symphonia = "0.5"
+clap = { version = "3.1", features = ["derive"] }
