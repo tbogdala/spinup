@@ -243,7 +243,7 @@ fn ui<B: tui::backend::Backend>(app_state: &mut AppState, f: &mut tui::Frame<B>)
     f.render_stateful_widget(list_widget, chunks[1], &mut app_state.file_list_state);
 
     // put a title bar at the top
-    let title_widget = Paragraph::new("spinup:  (j)down | (k)up | (space) play or navigate dir | ((bksp)stop | (q)quit".as_ref())
+    let title_widget = Paragraph::new("spinup:  (j)down | (k)up | (space) play or navigate dir | (bksp)stop | (q)quit".as_ref())
         .alignment(tui::layout::Alignment::Left)
         .style(Style::default().add_modifier(tui::style::Modifier::BOLD));
     f.render_widget(title_widget, chunks[0]);
