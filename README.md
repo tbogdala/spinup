@@ -33,6 +33,11 @@ The major libraries involved are:
 $ cargo install spinup
 ```
 
+## Tested Operating Systems
+
+  * macOS Monterey (v12.4)
+  * Linux (Manjaro Gnome)
+
 ## Feedback
 
 Feedback is welcome on the project and feel free to open an issue or message me any requests.
